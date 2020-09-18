@@ -10,8 +10,8 @@ body {
 
 .table-container {
     position: relative;
-    width: 745px;
-    height: 800px;
+    table-layout: fixed;
+    width: 100%;
     margin: 0 auto;
     background-color: #ffffff;
     z-index: 0;
@@ -93,15 +93,4 @@ td.crossed {
     top: 25px;
     left: 122px; 
     z-index: 1;
-}
-#inner1 {
-    height: 75%;    
-    width:100%;     
-    border:solid; 
-}
-
-#inner2{
-    height: 25%;    
-    width:100%;     
-    border:solid;
 }
