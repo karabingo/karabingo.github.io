@@ -94,3 +94,11 @@ td.crossed {
     left: 122px; 
     z-index: 1;
 }
+#inner1 {
+   float:left; 
+}
+
+#inner2{
+   float:left; 
+   clear: left;
+}
