@@ -12,9 +12,7 @@
     </head>
     <body>
         <script type="text/javascript" src="js/script.js"></script>
-        <table style="width:100%">
-<tr>
-        <div id="inner1">
+        <div id="tablecontainer" class="table-container">
             <div class="heading">
                 <h1> ORGONITY BINGO </h1>
             </div>
@@ -22,15 +20,11 @@
                 <p font color="red" span id="date"> </font /span /p>
             </div>
             <table></table>
+            <button onclick="downloadimage()" class="button">Pobierz bingo</button>
         </div>
-        </tr>
-<tr>
-    <div id="inner2">
-        <button onclick="downloadimage()" class="button">Pobierz bingo</button>
-        <button onclick="window.location.reload(true)" class="button2">Odśwież</button>
-        <button onclick="loadDefaultToTextbox()" class="button3">Standardowe hasła</button>
+    </body>
+    <div style="visibility: hidden">
+
         <textarea id="textbox" class="textbox" name="textbox" rows="48" cols="40" oninput= "save()"></textarea>
     </div>
-    </tr>
-    </body>
 </html>
