@@ -95,10 +95,13 @@ td.crossed {
     z-index: 1;
 }
 #inner1 {
-   float:left; 
+    height: 75%;    
+    width:100%;     
+    border:solid; 
 }
 
 #inner2{
-   float:left; 
-   clear: left;
+    height: 25%;    
+    width:100%;     
+    border:solid;
 }
